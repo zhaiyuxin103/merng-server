@@ -17,7 +17,7 @@ mongoose
   .connect(MONGODB, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log("MongoDB Connected");
-    return server.listen({ port: POST });
+    return server.listen({ port: PORT });
   })
   .then((result) => {
     console.log(`Server running at ${result.url}`);

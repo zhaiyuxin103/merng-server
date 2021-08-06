@@ -1,0 +1,39 @@
+{
+  "name": "merng",
+  "version": "1.0.0",
+  "description": "merng",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index",
+    "start": "nodemon index",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucifer103/merng.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Node",
+    "React",
+    "GraphQL",
+    "Node(MERNG)"
+  ],
+  "author": "Lucifer103",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucifer103/merng/issues"
+  },
+  "homepage": "https://github.com/lucifer103/merng#readme",
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
